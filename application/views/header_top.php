@@ -10,12 +10,19 @@
                             <li><a href="<?= site_url('main/login'); ?>">Sign In</a></li>
                             <li><a href="<?= site_url('main/register'); ?>"><strong>Register</strong></a></li>
                         </ul>
-                        <a href="submit.html" class="submit-item">
+                          <a href="submit.html" class="submit-item">
                             <div class="content"><span>Submit Your Item</span></div>
                             <div class="icon">
                                 <i class="fa fa-plus"></i>
                             </div>
                         </a>
+                        <div class="toggle-navigation">
+                            <div class="icon">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </div>
